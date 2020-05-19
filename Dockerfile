@@ -2,4 +2,4 @@ FROM php:7.2.2-apache
 
 RUN docker-php-ext-install mysqli
 
-docker run -d mysql/mysql-server
+RUN start mysqli
