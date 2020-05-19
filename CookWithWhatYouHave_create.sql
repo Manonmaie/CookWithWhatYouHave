@@ -1,4 +1,4 @@
--- drop database CookWithWhatYouHaveDB;
+drop database CookWithWhatYouHaveDB;
 create database CookWithWhatYouHaveDB;
 use CookWithWhatYouHaveDB;
 
