@@ -15,7 +15,7 @@ services:
 
   web:
     build: .
-    container_name: CookWithWhatYouHave
+    container_name: Cook_with_what_you_have
     depends_on:
       - db
     volumes:
