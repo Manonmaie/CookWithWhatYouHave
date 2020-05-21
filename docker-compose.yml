@@ -5,14 +5,17 @@ services:
     image: mysql:5.7
     environment:
       MYSQL_ROOT_PASSWORD: password
+      MYSQL_DATABASE: CookWithWhatYouHaveDB
       # MYSQL_DATABASE: test_db
       # MYSQL_USER: devuser
       # MYSQL_PASSWORD: devpass
     ports:
       - "4000:3306"
     volumes:
-     - ./CookWithWhatYouHave_create.sql:/docker-entrypoint-initdb.d/create.sql
-     
+     - ./SQL:/docker-entrypoint-initdb.d
+     # - ./CookWithWhatYouHave_alter.sql:/docker-entrypoint-initdb.d/alter.sql
+     # - ./CookWithWhatYouHave_data.sql:/docker-entrypoint-initdb.d/data.sql
+
   web:
     build: .
     container_name: cook_with_what_you_have

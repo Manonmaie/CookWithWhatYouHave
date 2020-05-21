@@ -17,13 +17,13 @@
     if (mysqli_num_rows($result1) > 0) {
        echo '<form action="page2.php" method="post">';
        	while($row = mysqli_fetch_assoc($result1)) {
- 		echo '<label class = "customcheck">'.$row["name"].
+ 				echo '<label class = "customcheck">'.$row["name"].
          	'<input type="checkbox"  name = "check_list[]" value = '.$row["ingredient_id"].' > <span class="checkmark"></span> </label>';
         		//echo '<input type="checkbox" name="check_list[]" value='.$row["name"].'><label>'.$row["name"].'</label>';
 		}
 		echo '<input type = "submit" name = "submit" value = "Find Recipes"/>';
-	echo '</form>';
-	//echo '<a href="http://localhost/recipes.php" class="button">Find Recipes</a>';
+		echo '</form>';
+		//echo '<a href="http://localhost/recipes.php" class="button">Find Recipes</a>';
     }
     else {
        Echo "No ingredients :( "."\n";
