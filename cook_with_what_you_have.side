@@ -2,7 +2,7 @@
   "id": "0a2bb0d0-f04b-46f8-bb12-85795099c713",
   "version": "2.0",
   "name": "cook_with_what_you_have",
-  "url": "http://172.22.0.3",
+  "url": "http://172.22.0.3/page1.php",
   "tests": [{
     "id": "57df6c39-db2a-468b-89a4-11dc9ca3a5f2",
     "name": "CWWYH_Test1",
@@ -208,6 +208,157 @@
       ],
       "value": ""
     }]
+  }, {
+    "id": "e03dcfb5-8bf1-47d0-9db1-74ff86ee6125",
+    "name": "CWWYH_Test2",
+    "commands": [{
+      "id": "f01ded7f-95fe-46b4-9c59-4868445ea16c",
+      "comment": "",
+      "command": "open",
+      "target": "http://172.22.0.3/page1.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "557e327b-7657-4c7d-94fd-b534590b2284",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1bc0df9e-4274-44b5-96bb-8fcefb18447d",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(7)",
+      "targets": [
+        ["css=.customcheck:nth-child(7)", "css:finder"],
+        ["xpath=//label[7]", "xpath:position"],
+        ["xpath=//label[contains(.,'tomato')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "6df7a180-2462-450d-a386-081410b8189b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(6)",
+      "targets": [
+        ["css=.customcheck:nth-child(6)", "css:finder"],
+        ["xpath=//label[6]", "xpath:position"],
+        ["xpath=//label[contains(.,'mealted chocolate')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c6fb970b-b20b-4835-a70c-4ba9ea74a0f7",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(9)",
+      "targets": [
+        ["css=.customcheck:nth-child(9)", "css:finder"],
+        ["xpath=//label[9]", "xpath:position"],
+        ["xpath=//label[contains(.,'brownie mix')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec94de94-32ae-4ede-961e-b7b45da2eb6b",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(10)",
+      "targets": [
+        ["css=.customcheck:nth-child(10)", "css:finder"],
+        ["xpath=//label[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "1c1c0325-7862-4236-b9ba-ca2430324fec",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(15)",
+      "targets": [
+        ["css=.customcheck:nth-child(15)", "css:finder"],
+        ["xpath=//label[15]", "xpath:position"],
+        ["xpath=//label[contains(.,'milk')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c861a71b-d9be-40ec-a0d4-d583fd6787db",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='page2.php']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "13f88d93-6452-4bab-9843-c6e57c708734",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(19) > input",
+      "targets": [
+        ["css=.customcheck:nth-child(19) > input", "css:finder"],
+        ["xpath=(//input[@name='check_list[]'])[19]", "xpath:attributes"],
+        ["xpath=//label[19]/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ec79f143-f370-4f9c-b152-ac2ba6d04837",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(17)",
+      "targets": [
+        ["css=.customcheck:nth-child(17)", "css:finder"],
+        ["xpath=//label[17]", "xpath:position"],
+        ["xpath=//label[contains(.,'flour')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a727ed0-be16-49d4-bc10-eb73a5398766",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(16)",
+      "targets": [
+        ["css=.customcheck:nth-child(16)", "css:finder"],
+        ["xpath=//label[16]", "xpath:position"],
+        ["xpath=//label[contains(.,'eggs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "69c457f8-8da6-4ea8-8b06-330ea775abba",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=input:nth-child(21)", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "5f37e734-1e33-4898-a300-d96279a08d5f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.label-text",
+      "targets": [
+        ["css=.label-text", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Easy Hard Boiled Eggs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "76a94183-91bc-40d7-90cd-086866b6cd63",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=input:nth-child(2)", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
   }],
   "suites": [{
     "id": "eaf175b8-05a1-4160-aa00-08b722a002b8",
@@ -217,6 +368,6 @@
     "timeout": 300,
     "tests": ["57df6c39-db2a-468b-89a4-11dc9ca3a5f2"]
   }],
-  "urls": ["http://172.22.0.3/"],
+  "urls": ["http://172.22.0.3/", "http://172.22.0.3/page1.php"],
   "plugins": []
 }
