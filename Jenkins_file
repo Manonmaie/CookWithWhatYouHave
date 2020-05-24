@@ -1,0 +1,38 @@
+#!groovy
+pipeline {
+    agent any
+    stages {
+     stage('Build') {
+      steps {
+       sh 'docker-compose build'
+       }
+     }
+     stage('Up') {
+      steps {
+        sh 'docker-compose up -d'
+      }
+     }
+     stage('Docker Hub'){
+       steps{
+     	  withDockerRegistry([ credentialsId: "dockerhub", url: "" ]){
+     	   sh 'docker push manonmaie/cook_with_what_you_have'
+ 	     }
+     }
+   }
+   stage('Deploy using Rundeck') {
+      agent any
+      steps {
+        script {
+          step([$class: "RundeckNotifier",
+          rundeckInstance: "Rundeck",
+          shouldFailTheBuild: true,
+          shouldWaitForRundeckJob: true,
+          options: """
+            BUILD_VERSION=$BUILD_NUMBER
+          """,
+          jobId: "2097bfe7-255f-4c24-bdf0-2d3c64445b9e"])
+        }
+      }
+    }
+  }
+ }
