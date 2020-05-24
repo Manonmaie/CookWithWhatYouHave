@@ -1,0 +1,222 @@
+{
+  "id": "0a2bb0d0-f04b-46f8-bb12-85795099c713",
+  "version": "2.0",
+  "name": "cook_with_what_you_have",
+  "url": "http://172.22.0.3",
+  "tests": [{
+    "id": "57df6c39-db2a-468b-89a4-11dc9ca3a5f2",
+    "name": "CWWYH_Test1",
+    "commands": [{
+      "id": "5ec75e5c-5e03-43ee-867b-e6e3c6559b29",
+      "comment": "",
+      "command": "open",
+      "target": "/page1.php",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "9c87581d-ed38-40de-b8ec-134bf54c593a",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1325x741",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "de87775a-2b9a-4f1b-a18e-f30c9f7a9bde",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(1)",
+      "targets": [
+        ["css=.customcheck:nth-child(1)", "css:finder"],
+        ["xpath=//label", "xpath:position"],
+        ["xpath=//label[contains(.,'onion')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d2e9532c-98e7-4b8d-ad0f-4818e0b6a06c",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(10)",
+      "targets": [
+        ["css=.customcheck:nth-child(10)", "css:finder"],
+        ["xpath=//label[10]", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3e0869c0-646b-4236-a00b-c9b64a6c41b6",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='page2.php']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "ae8511d0-efc7-41bc-9ba1-f22a4f00ec10",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(7)",
+      "targets": [
+        ["css=.customcheck:nth-child(7)", "css:finder"],
+        ["xpath=//label[7]", "xpath:position"],
+        ["xpath=//label[contains(.,'tomato')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "5579f73b-f7a2-4ecd-982a-bde4490fc749",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(11)",
+      "targets": [
+        ["css=.customcheck:nth-child(11)", "css:finder"],
+        ["xpath=//label[11]", "xpath:position"],
+        ["xpath=//label[contains(.,'cookie dough')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "378833ba-8992-4262-a121-3902fe2687bb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(19)",
+      "targets": [
+        ["css=.customcheck:nth-child(19)", "css:finder"],
+        ["xpath=//label[19]", "xpath:position"],
+        ["xpath=//label[contains(.,'biscuits')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "c971dba5-0771-4726-89e4-b80c5a425ffb",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(14)",
+      "targets": [
+        ["css=.customcheck:nth-child(14)", "css:finder"],
+        ["xpath=//label[14]", "xpath:position"],
+        ["xpath=//label[contains(.,'chicken')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "2eb5453f-0ebb-45c0-9b30-d5e6a82f58c9",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='page2.php']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "e6d1ac82-5958-49aa-b4bc-df84ce47123e",
+      "comment": "",
+      "command": "click",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='page2.php']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "7f121b65-75b5-48b2-9ccd-fa8177a69634",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=form",
+      "targets": [
+        ["css=form", "css:finder"],
+        ["xpath=//form[@action='page2.php']", "xpath:attributes"],
+        ["xpath=//form", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "de6ad84a-0450-4df4-b535-3642db0f335f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(16)",
+      "targets": [
+        ["css=.customcheck:nth-child(16)", "css:finder"],
+        ["xpath=//label[16]", "xpath:position"],
+        ["xpath=//label[contains(.,'eggs')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "057f0d04-5739-4b11-b36e-7dc83b09e16f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(18)",
+      "targets": [
+        ["css=.customcheck:nth-child(18)", "css:finder"],
+        ["xpath=//label[18]", "xpath:position"],
+        ["xpath=//label[contains(.,'cheese')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "0107c933-f2be-43ed-8013-7f618bb6eb20",
+      "comment": "",
+      "command": "click",
+      "target": "css=html",
+      "targets": [
+        ["css=html", "css:finder"],
+        ["xpath=//html", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "3a402990-dfee-4df9-bffc-a4bf1806f206",
+      "comment": "",
+      "command": "click",
+      "target": "css=.customcheck:nth-child(20)",
+      "targets": [
+        ["css=.customcheck:nth-child(20)", "css:finder"],
+        ["xpath=//label[20]", "xpath:position"],
+        ["xpath=//label[contains(.,'ketchup')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "e09889c7-990f-4ec3-a880-44ab74a38f93",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=input:nth-child(21)", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "730e19e8-d37a-4b74-80d6-d67a38e429c3",
+      "comment": "",
+      "command": "click",
+      "target": "css=.form-check:nth-child(1) .label-text",
+      "targets": [
+        ["css=.form-check:nth-child(1) .label-text", "css:finder"],
+        ["xpath=//span", "xpath:position"],
+        ["xpath=//span[contains(.,'Crispy Cheese Bites')]", "xpath:innerText"]
+      ],
+      "value": ""
+    }, {
+      "id": "d73fc97d-399b-47b9-abd1-7af506bc5544",
+      "comment": "",
+      "command": "click",
+      "target": "name=submit",
+      "targets": [
+        ["name=submit", "name"],
+        ["css=input:nth-child(3)", "css:finder"],
+        ["xpath=//input[@name='submit']", "xpath:attributes"],
+        ["xpath=//form/input", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "eaf175b8-05a1-4160-aa00-08b722a002b8",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["57df6c39-db2a-468b-89a4-11dc9ca3a5f2"]
+  }],
+  "urls": ["http://172.22.0.3/"],
+  "plugins": []
+}
